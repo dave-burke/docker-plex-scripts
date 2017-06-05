@@ -21,7 +21,7 @@ docker run \
 --env PLEX_UID=111 \
 --env PLEX_GID=117 \
 --hostname plex.servy.lan \
---volume /mnt/storage/var/lib/plexmediaserver:/config \
+--volume /mnt/storage/docker/plex/config:/config \
 --volume /mnt/storage/audio:/mnt/storage/audio \
 --volume /mnt/storage/videos:/mnt/storage/videos \
 --volume /mnt/storage/photos:/mnt/storage/photos \

@@ -28,3 +28,5 @@ docker run \
 --volume /mnt/storage/photos:/mnt/storage/photos \
 ${IMAGE}
 
+docker exec plex chown -R plex:plex upload
+
